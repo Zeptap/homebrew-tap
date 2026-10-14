@@ -2,8 +2,7 @@ cask "zeptap" do
   version "0.5.8"
   sha256 "2db1e258bce7a912f19a28d78b4504ff55da4cd5d6ab27fd568a5a87f39ddae1"
 
-  url "https://github.com/Zeptap/releases/releases/download/v#{version}/Zeptap-#{version}.dmg",
-      verified: "github.com/Zeptap/releases/"
+  url "https://github.com/Zeptap/releases/releases/download/v#{version}/Zeptap-#{version}.dmg"
   name "Zeptap"
   desc "Lets AI agents see, tap and type on a real iPhone through a local MCP server"
   homepage "https://zeptap.com/"
