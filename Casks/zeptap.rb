@@ -14,7 +14,7 @@ cask "zeptap" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Zeptap.app"
   # `zeptap --stdio` is the MCP server over stdio, for clients that only launch stdio servers.
