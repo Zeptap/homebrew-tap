@@ -1,6 +1,6 @@
 cask "zeptap" do
-  version "0.5.8"
-  sha256 "2db1e258bce7a912f19a28d78b4504ff55da4cd5d6ab27fd568a5a87f39ddae1"
+  version "0.6.0"
+  sha256 "2e9199a2ef2fe4026813308ef197537c3fb8c835ef877f9700700bf4635fc9fb"
 
   url "https://github.com/Zeptap/releases/releases/download/v#{version}/Zeptap-#{version}.dmg"
   name "Zeptap"
